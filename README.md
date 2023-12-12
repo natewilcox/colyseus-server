@@ -15,4 +15,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/colyseus-server.git
+git clone https://github.com/natewilcox/colyseus-server.git
