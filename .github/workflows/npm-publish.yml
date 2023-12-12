@@ -8,7 +8,7 @@ jobs:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   deploy_to_colyseus:
-    needs: build
+    needs: build_and_publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
