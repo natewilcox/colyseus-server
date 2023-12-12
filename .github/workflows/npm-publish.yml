@@ -6,3 +6,20 @@ jobs:
       uses: natewilcox/actions-workflows/.github/workflows/npm-publish.yml@main
       secrets:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  deploy_to_colyseus:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+
+      - name: Build
+        run: 
+          echo "Deploy server"
+          npx @colyseus/cloud deploy --branch main
+
+
