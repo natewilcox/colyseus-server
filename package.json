@@ -9,7 +9,7 @@
     "clean": "npx rimraf dist",
     "build": "tsc",
     "prebuild": "npm run clean",
-    "deploy": "npx @colyseus/cloud deploy --branch main",
+    "deploy": "npx @colyseus/cloud deploy --remote git@github.com:natewilcox/colyseus-server.git",
     "test": "mocha -r tsx test/**_test.ts --exit --timeout 15000"
   },
   "author": "Nathan Wilcox",
