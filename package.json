@@ -19,6 +19,7 @@
     "url": "https://github.com/natewilcox/colyseus-server.git"
   },
   "devDependencies": {
+    "@colyseus/cloud": "^1.0.10",
     "@colyseus/loadtest": "^0.15.2",
     "@colyseus/testing": "^0.15.2",
     "@colyseus/tools": "^0.15.24",
@@ -31,7 +32,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@colyseus/cloud": "^1.0.10",
     "@colyseus/command": "^0.2.1",
     "@colyseus/monitor": "^0.15.4",
     "@colyseus/playground": "^0.15.7",
