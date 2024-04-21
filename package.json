@@ -1,6 +1,6 @@
 {
   "name": "@natewilcox/colyseus-server",
-  "version": "0.0.7",
+  "version": "0.0.6",
   "description": "colyseus server",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "clean": "npx rimraf dist",
     "build": "tsc",
     "prebuild": "npm run clean",
-    "deploy": "npx @colyseus/cloud deploy --remote git@github.com:natewilcox/colyseus-server.git",
+    "deploy": "npx @colyseus/cloud deploy",
     "test": "mocha -r tsx test/**_test.ts --exit --timeout 15000"
   },
   "author": "Nathan Wilcox",
