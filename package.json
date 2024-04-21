@@ -38,9 +38,9 @@
     "@faker-js/faker": "^8.0.2",
     "@natewilcox/picow-server": "0.0.1",
     "@natewilcox/rabit-jump-server": "0.1.3",
-    "@natewilcox/tic-tac-toe-server": "0.0.5",
+    "@natewilcox/tic-tac-toe-server": "0.0.7",
     "@natewilcox/zelda-server": "0.0.14",
-    "colyseus": "^0.15.8",
+    "colyseus": "^0.15.13",
     "debug": "^4.3.4",
     "express": "^4.18.2",
     "finalhandler": "^1.2.0"
