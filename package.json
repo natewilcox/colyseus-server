@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsx watch src/index.ts",
     "loadtest": "tsx loadtest/example.ts --room public_room --numClients 2",
-    "clean": "npx rimraf dist",
+    "clean": "npx rimraf dist && npx rimraf build",
     "build": "tsc",
     "prebuild": "npm run clean",
     "deploy": "npx @colyseus/cloud deploy",
