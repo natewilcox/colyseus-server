@@ -1,6 +1,5 @@
 import config from "@colyseus/tools";
 import { monitor } from "@colyseus/monitor";
-import { playground } from "@colyseus/playground";
 import { PrivateRoom, PublicRoom } from "@natewilcox/tic-tac-toe-server";
 import * as PICOW from "@natewilcox/picow-server";
 import { GameRoom } from "@natewilcox/rabit-jump-server";
@@ -24,7 +23,7 @@ export default config({
         console.log('Configuring ZELDA rooms...');
         gameServer.define('zelda_room', ZeldaRoom);
 
-        console.log("READY!!!!!");
+        console.log("READY and GO!");
     },
 
     initializeExpress: (app) => {
