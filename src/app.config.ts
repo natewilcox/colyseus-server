@@ -1,8 +1,8 @@
 import config from "@colyseus/tools";
 import { monitor } from "@colyseus/monitor";
-import { PrivateRoom, PublicRoom } from "@natewilcox/tic-tac-toe-server";
-import * as PICOW from "@natewilcox/picow-server";
-import { GameRoom } from "@natewilcox/rabit-jump-server";
+// import { PrivateRoom, PublicRoom } from "@natewilcox/tic-tac-toe-server";
+// import * as PICOW from "@natewilcox/picow-server";
+// import { GameRoom } from "@natewilcox/rabit-jump-server";
 import { GameRoom as ZeldaRoom } from "@natewilcox/zelda-server";
 
 export default config({
