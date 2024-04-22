@@ -9,16 +9,16 @@ export default config({
 
     initializeGameServer: (gameServer) => {
  
-        console.log('Configuring TIC-TAC-TOE rooms....');
-        gameServer.define('tictactoe_public_room', PublicRoom);
-        gameServer.define('tictactoe_private_room', PrivateRoom);
+        // console.log('Configuring TIC-TAC-TOE rooms....');
+        // gameServer.define('tictactoe_public_room', PublicRoom);
+        // gameServer.define('tictactoe_private_room', PrivateRoom);
 
-        console.log('Configuring RABIT-JUMP rooms....');
-        gameServer.define('rabit_room', GameRoom);
+        // console.log('Configuring RABIT-JUMP rooms....');
+        // gameServer.define('rabit_room', GameRoom);
         
-        console.log('Configuring PICOW rooms....');
-        gameServer.define('picow_public_room', PICOW.PublicRoom);
-        gameServer.define('picow_private_room', PICOW.PrivateRoom);
+        // console.log('Configuring PICOW rooms....');
+        // gameServer.define('picow_public_room', PICOW.PublicRoom);
+        // gameServer.define('picow_private_room', PICOW.PrivateRoom);
 
         console.log('Configuring ZELDA rooms...');
         gameServer.define('zelda_room', ZeldaRoom);
