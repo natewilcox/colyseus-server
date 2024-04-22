@@ -5,7 +5,7 @@ export default config({
 
     initializeGameServer: (gameServer) => {
 
-        console.log("READY and GO!!!!");
+        console.log("READY and GO with no apps");
     },
 
     initializeExpress: (app) => {
