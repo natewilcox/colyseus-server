@@ -1,5 +1,11 @@
 name: Publish to NPM
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build_and_publish:
