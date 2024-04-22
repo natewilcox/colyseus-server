@@ -23,7 +23,7 @@ export default config({
         console.log('Configuring ZELDA rooms...');
         gameServer.define('zelda_room', ZeldaRoom);
 
-        console.log("READY and GO!!!!");
+        console.log("READY and GO!");
     },
 
     initializeExpress: (app) => {
