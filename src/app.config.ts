@@ -1,27 +1,27 @@
 import config from "@colyseus/tools";
-import { monitor } from "@colyseus/monitor";
-import { PrivateRoom, PublicRoom } from "@natewilcox/tic-tac-toe-server";
-import * as PICOW from "@natewilcox/picow-server";
-import { GameRoom } from "@natewilcox/rabit-jump-server";
-import { GameRoom as ZeldaRoom } from "@natewilcox/zelda-server";
+// import { monitor } from "@colyseus/monitor";
+// import { PrivateRoom, PublicRoom } from "@natewilcox/tic-tac-toe-server";
+// import * as PICOW from "@natewilcox/picow-server";
+// import { GameRoom } from "@natewilcox/rabit-jump-server";
+// import { GameRoom as ZeldaRoom } from "@natewilcox/zelda-server";
 
 export default config({
 
     initializeGameServer: (gameServer) => {
  
-        console.log('Configuring TIC-TAC-TOE rooms....');
-        gameServer.define('tictactoe_public_room', PublicRoom);
-        gameServer.define('tictactoe_private_room', PrivateRoom);
+        // console.log('Configuring TIC-TAC-TOE rooms....');
+        // gameServer.define('tictactoe_public_room', PublicRoom);
+        // gameServer.define('tictactoe_private_room', PrivateRoom);
 
-        console.log('Configuring RABIT-JUMP rooms....');
-        gameServer.define('rabit_room', GameRoom);
+        // console.log('Configuring RABIT-JUMP rooms....');
+        // gameServer.define('rabit_room', GameRoom);
         
-        console.log('Configuring PICOW rooms....');
-        gameServer.define('picow_public_room', PICOW.PublicRoom);
-        gameServer.define('picow_private_room', PICOW.PrivateRoom);
+        // console.log('Configuring PICOW rooms....');
+        // gameServer.define('picow_public_room', PICOW.PublicRoom);
+        // gameServer.define('picow_private_room', PICOW.PrivateRoom);
 
-        console.log('Configuring ZELDA rooms...');
-        gameServer.define('zelda_room', ZeldaRoom);
+        // console.log('Configuring ZELDA rooms...');
+        // gameServer.define('zelda_room', ZeldaRoom);
 
         console.log("READY and GO!");
     },
