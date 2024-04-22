@@ -1,6 +1,6 @@
 {
   "name": "@natewilcox/colyseus-server",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "colyseus server",
   "main": "dist/index.js",
   "scripts": {
