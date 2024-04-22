@@ -20,6 +20,6 @@ jobs:
       - name: Build
         run: 
           echo "Deploy server"
-          npx @colyseus/cloud deploy --branch main
+          npx @colyseus/cloud deploy --remote git@github.com:natewilcox/colyseus-server.git
 
 

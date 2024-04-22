@@ -3,7 +3,7 @@ import { monitor } from "@colyseus/monitor";
 // import { PrivateRoom, PublicRoom } from "@natewilcox/tic-tac-toe-server";
 // import * as PICOW from "@natewilcox/picow-server";
 // import { GameRoom } from "@natewilcox/rabit-jump-server";
-import { GameRoom as ZeldaRoom } from "@natewilcox/zelda-server";
+// import { GameRoom as ZeldaRoom } from "@natewilcox/zelda-server";
 
 export default config({
 
@@ -20,10 +20,10 @@ export default config({
         // gameServer.define('picow_public_room', PICOW.PublicRoom);
         // gameServer.define('picow_private_room', PICOW.PrivateRoom);
 
-        console.log('Configuring ZELDA rooms...');
-        gameServer.define('zelda_room', ZeldaRoom);
+        // console.log('Configuring ZELDA rooms...');
+        // gameServer.define('zelda_room', ZeldaRoom);
 
-        console.log("READY and GO!");
+        console.log("READY and GO!!!!");
     },
 
     initializeExpress: (app) => {
